@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(24, 213, 213);
+}
+h1{
+    background-color: #080b31;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 6rem;
+    margin-top: 3rem
+
+}
+#user,#comp{
+    font-size: 4rem;
+    gap: 5rem;
+}
+.msg-c
+{
+    height: 200px;
+    width: 250px;
+    margin-left: 41%;
+    margin-top: 3rem;
+}
+#msg{
+    background-color: #080b31;
+    color: wheat;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: .05rem;
+    cursor: pointer;
+    
+}
+#msg:active{
+    border: 5px solid green;
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(red, green, blue, alpha);
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 10px;
+}
+#reset{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20%;
+    background-color:grey;
+    color: rgb(128, 0, 115);
+    border: solid blue 10px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
